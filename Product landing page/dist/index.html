@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <link rel="stylesheet" href="css/simplelightbox.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/6627fdc83c.js"></script>
+        <link
+          href="https://fonts.googleapis.com/css?family=Catamaran&display=swap"
+          rel="stylesheet"
+        />
+        <title>Hipster Coffee</title>
+      </head>
+<body id="home">
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Hip-stir</h1>
+            <ul class="nav">
+             <li><a href="#home">Home</a></li>
+             <li><a href="#home">About</a></li>
+             <li><a href="#home">Testimonies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase-->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Coffee made with an edge</h1>
+                <p>Strong lungo cup lungo, café au lait, filter, caramelization skinny, that, shop, aftertaste steamed, id acerbic, turkish robust cup so, cultivar strong, macchiato frappuccino shop rich, aromatic, mocha caffeine variety coffee, and, as, sweet acerbic breve carajillo instant.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <img src="img/coffee_latte_pattern_flower.jpg" alt="">
+        </div>
+    </section> 
+
+    <!-- Overlay Text -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Putting the x in espresso</h3>
+                <h2>Brewing in Progress</h2>
+                <p>Rich, affogato frappuccino whipped est organic, fair trade espresso robusta steamed trifecta shop, con panna at a breve, ut caffeine rich, body.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+          <a href="img/coffee_cup_saucer_black_6.jpg" class="big"
+            ><img src="img/coffee_cup_saucer_black_6.jpg" alt=""
+          /></a>
+          <a href="img/coffee_cup_coffee_cup_7.jpg" class="big"
+            ><img src="img/coffee_cup_coffee_cup_7.jpg"" alt=""
+          /></a>
+          <a href="img/coffee_coffee_beans_beans_7.jpg" class="big"
+            ><img src="img/coffee_coffee_beans_beans_7.jpg" alt=""
+          /></a>
+          <a href="img/coffee_coffee_maker_restaurant_2.jpg" class="big"
+            ><img src="img/coffee_coffee_maker_restaurant_2.jpg" alt=""
+          /></a>
+          <a href="img/technology_digital_digital_tablet.jpg" class="big">
+            <img src="img/technology_digital_digital_tablet.jpg" alt=""
+          /></a>
+          <a href="img/coffee_cup_hand_cafe.jpg" class="big"
+            ><img src="img/coffee_cup_hand_cafe.jpg" alt=""
+          /></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Contact us</h2>
+                <a href="http://twitter.com">
+                   <i class="fab fa-twitter fa-2x"></i>  
+                </a>
+                <a href="http://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>  
+                 </a>
+                 <a href="http://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i>  
+                 </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                  <li><a href="#">A brew-tiful place somewhere East.</a></li>
+               </ul>
+            </div>
+            <div>
+                <h3>The Brew Blog</h3>
+                 <ul>
+                    <li><a href="#">How tos.</a></li>
+                    <li><a href="#">Bean about town.</a></li>
+                    <li><a href="#">Lockdown recipes.</a></li>
+                 </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <form 
+                    name="email-form" 
+                    method=POST 
+                    data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap"><input
+                            type="email" 
+                            name="email" 
+                            id="email" 
+                            size="40" 
+                            class="form-control" 
+                            placeholder="Email"
+                            /></span><button type="submit" value="Submit"class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>  
+                            </button>            
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+      $(function() {
+        const $gallery = $(".gallery a").simpleLightbox();
+      });
+    </script>
+</body>
+</html>
+
